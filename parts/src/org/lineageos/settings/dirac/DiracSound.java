@@ -46,13 +46,6 @@ public class DiracSound extends AudioEffect {
         checkStatus(setParameter(DIRACSOUND_PARAM_MUSIC, enable));
     }
 
-    public int getHeadsetType() throws IllegalStateException,
-            IllegalArgumentException, UnsupportedOperationException {
-        int[] value = new int[1];
-        checkStatus(getParameter(DIRACSOUND_PARAM_HEADSET_TYPE, value));
-        return value[0];
-    }
-
     public void setHeadsetType(int type) throws IllegalStateException,
             IllegalArgumentException, UnsupportedOperationException {
         checkStatus(setParameter(DIRACSOUND_PARAM_HEADSET_TYPE, type));
@@ -64,6 +57,7 @@ public class DiracSound extends AudioEffect {
                 String.valueOf(level).getBytes()));
     }
 
+<<<<<<< HEAD
     public float getLevel(int band) throws IllegalStateException,
             IllegalArgumentException, UnsupportedOperationException {
         int[] param = new int[2];
@@ -72,5 +66,10 @@ public class DiracSound extends AudioEffect {
         param[1] = band;
         checkStatus(getParameter(param, value));
         return new Float(new String(value)).floatValue();
+=======
+    public void setHifiMode(int mode) throws IllegalStateException,
+            IllegalArgumentException, UnsupportedOperationException {
+        checkStatus(setParameter(DIRACSOUND_PARAM_HIFI, mode));
+>>>>>>> 0c5a259b (thyme: Dont restore values on boot)
     }
 }
