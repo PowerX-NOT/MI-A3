@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The VoltageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_laurel_sprout.mk
+    $(LOCAL_DIR)/voltage_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_laurel_sprout-user \
-    lineage_laurel_sprout-userdebug \
-    lineage_laurel_sprout-eng
+    voltage_laurel_sprout-user \
+    voltage_laurel_sprout-userdebug \
+    voltage_laurel_sprout-eng
