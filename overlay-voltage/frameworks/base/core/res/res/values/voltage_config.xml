@@ -38,10 +38,6 @@
     <integer name="config_proximityCheckTimeout">3000</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 
-    <!-- Statusbar Left-Right padding defaults -->
-    <integer name="config_statusbarPaddingStartDef">16</integer>
-    <integer name="config_statusbarPaddingEndDef">5</integer>
-
     <!-- Whether to disable Night Light feature during UDFPS unlock -->
     <bool name="config_udfpsDisableNightLight">true</bool>
 
