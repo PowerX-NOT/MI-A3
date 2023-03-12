@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The VoltageOS Project
+# Copyright (C) 2018-2019 The ArrowOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_laurel_sprout.mk
+    $(LOCAL_DIR)/arrow_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_laurel_sprout-user \
-    voltage_laurel_sprout-userdebug \
-    voltage_laurel_sprout-eng
+    arrow_laurel_sprout-user \
+    arrow_laurel_sprout-userdebug \
+    arrow_laurel_sprout-eng
